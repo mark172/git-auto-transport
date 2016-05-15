@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  *= require bootstrap-datetimepicker
+ *= require themify-icons
  */
 
 input[type="radio"], input[type="checkbox"] {
@@ -28,5 +29,10 @@ label {
     font-weight: bold;
 }
 
-@import "uikit.scss";
-@import "uikit-browser.scss";
+@import "uikit/uikit";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+@import "bootstrap-datetimepicker.min";
+@import "animate.min";
+@import "prettyPhoto";
+@import "hi-default";

@@ -1,0 +1,47 @@
+/* Roboto Fontkit (LOCAL)
+-----------------------------------------*/
+
+/* Roboto Condensed Regular
+--------------------------------------*/
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('assets/RobotoCondensed-Regular-webfont.eot');
+    src: url('assets/RobotoCondensed-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/RobotoCondensed-Regular-webfont.woff') format('woff'),
+         url('assets/RobotoCondensed-Regular-webfont.ttf') format('truetype'),
+         url('assets/RobotoCondensed-Regular-webfont.svg#roboto_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Roboto Condensed Bold
+--------------------------------------*/
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('assets/RobotoCondensed-Bold-webfont.eot');
+    src: url('assets/RobotoCondensed-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/RobotoCondensed-Bold-webfont.woff') format('woff'),
+         url('assets/RobotoCondensed-Bold-webfont.ttf') format('truetype'),
+         url('assets/RobotoCondensed-Bold-webfont.svg#roboto_condensedbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+/* Roboto Condensed Light
+--------------------------------------*/
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('assets/RobotoCondensed-Light-webfont.eot');
+    src: url('assets/RobotoCondensed-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/RobotoCondensed-Light-webfont.woff') format('woff'),
+         url(assets/'RobotoCondensed-Light-webfont.ttf') format('truetype'),
+         url(assets/'RobotoCondensed-Light-webfont.svg#roboto_condensedlight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+
+}
