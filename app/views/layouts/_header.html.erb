@@ -61,8 +61,8 @@
           <span class="sr-only">Toggle navigation</span>
           <i class="ti ti-menu"></i>
         </button>
-        <%= link_to (image_tag ("gtauto/gtat_blue.png"), class: "hidden-xs"), root_path, class: "navbar-brand" %> <!-- Default Logo -->
-        <%= link_to (image_tag ("gtauto/gtat_blue.png"), class: "visible-xs"), root_path, class: "navbar-brand" %>
+        <%= link_to (image_tag ("gtauto/gtat_blue.png"), alt: 'GT Auto Transport Main Logo', class: "hidden-xs"), root_path, class: "navbar-brand" %> <!-- Default Logo -->
+        <%= link_to (image_tag ("gtauto/gtat_blue.png"), alt: 'GT Auto Transport Main Logo', class: "visible-xs"), root_path, class: "navbar-brand" %>
       </div>
       <% if mobile? %>
         <div class="visible-xs translation" id="google_translate_element"></div>

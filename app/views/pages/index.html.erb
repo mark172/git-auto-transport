@@ -29,7 +29,7 @@
                       <%= link_to "get a free quote", new_quote_path, class: "btn btn-primary no-border btn-bigger bx-layer", :data => { :anim => 'slideInUp', :dur => '1000', :delay => '600' }  %>
                     </div>
                     <!-- /Text -->
-                    <%= link_to (image_tag ("gtauto/quick_quite.png"), class: "img-main-quote"), new_quote_path %>
+                    <%= link_to (image_tag ("gtauto/quick_quite.png"), alt: 'GT Auto Transport Quick Quote', class: "img-main-quote"), new_quote_path %>
                   </div>
                   <!-- /Slide -->
                   
@@ -42,7 +42,7 @@
                       <%= link_to "start an order", new_order_path, class: "btn btn-primary no-border btn-bigger bx-layer", :data => { :anim => 'slideInUp', :dur => '1000', :delay => '600' }  %>
                     </div>
                     <!-- /Text -->
-                    <%= image_tag ("gtauto/slider_bug1.png"), class: "img-main" %>
+                    <%= image_tag ("gtauto/slider_bug1.png"), alt: 'GT Auto Transport Order', class: "img-main" %>
                   </div>
                   <!-- /Slide -->
                   
@@ -55,7 +55,7 @@
                       <%= link_to "track shipment", new_tracking_path, class: "btn btn-primary no-border btn-bigger bx-layer", :data => { :anim => 'slideInUp', :dur => '1000', :delay => '600' }  %>
                     </div>
                     <!-- /Text -->
-                    <%= image_tag ("gtauto/slider_truck1.png"), class: "img-main" %>
+                    <%= image_tag ("gtauto/slider_truck1.png"), alt: 'GT Auto tracking truck image', class: "img-main" %>
                   </div>
                   <!-- /Slide -->
                   
@@ -68,7 +68,7 @@
                       <%= link_to "contact us", contacts_path, class: "btn btn-primary no-border btn-bigger bx-layer", :data => { :anim => 'slideInUp', :dur => '1000', :delay => '600' }  %>
                     </div>
                     <!-- /Text -->
-                    <%= image_tag ("gtauto/sliderBike2.png"), class: "img-main" %>
+                    <%= image_tag ("gtauto/sliderBike2.png"), alt: 'GT Auto contact us bike image',  class: "img-main" %>
                   </div>
                   <!-- /Slide -->
                   
@@ -199,7 +199,7 @@
               <div class="hquote">
                 <blockquote>
                   <p><%= image_tag ("gtauto/review_logo.jpg"), class: "avatar" %><strong>Third time and still charmed - </strong>I was introduced to Amy at GT Auto Transport when I purchased a classic Mustang that needed to be transported. This is now the third car in 4 weeks they've moved for me, and I'm very happy all around!</p>
-                  <small class="author-bottom"><%= link_to "Chach DalSanto", "http://www.transportreviews.com/Company/GT-Auto-Transport-LLC/Reviews/286601/", :target => "_blank" %></small>
+                  <small class="author-bottom"><%= link_to "Chach DalSanto", "http://www.transportreviews.com/Company/GT-Auto-Transport-LLC/Reviews/286601/", rel: 'nofollow', :target => "_blank" %></small>
                 </blockquote>
               </div>
             </div>
@@ -207,7 +207,7 @@
               <div class="hquote hquote-right">
                 <blockquote>
                   <p><%= image_tag ("gtauto/review_logo.jpg"), class: "avatar" %><strong>Great service - </strong>Everything you want in car transport. Friendly, courteous, on time, clean, etc. The driver kept me informed on his pickup schedule and followed all instructions for delivery. He contacted the receiving person and delivered it as promised.</p>
-                  <small class="author-bottom"><%= link_to "Rob", "http://www.transportreviews.com/Company/GT-Auto-Transport-LLC/Reviews/282374/", :target => "_blank" %></small>
+                  <small class="author-bottom"><%= link_to "Rob", "http://www.transportreviews.com/Company/GT-Auto-Transport-LLC/Reviews/282374/", rel: 'nofollow', :target => "_blank" %></small>
                 </blockquote>
               </div>
             </div>
@@ -215,7 +215,7 @@
               <div class="hquote">
                 <blockquote>
                   <p><%= image_tag ("gtauto/review_logo.jpg"), class: "avatar" %><strong>THANK YOU GT AUTO TRANSPORT!!!! - </strong>Amy with GT Auto Transport was extremely helpful and prompt with getting my vehicle transported from Portland, OR to Houston, TX. I would HIGHLY recommend them to anyone in need of transporting. Thanks again Amy!!!!</p>
-                  <small class="author-bottom"><%= link_to "Tony B", "http://www.transportreviews.com/Company/GT-Auto-Transport-LLC/Reviews/281625/", :target => "_blank" %></small>
+                  <small class="author-bottom"><%= link_to "Tony B", "http://www.transportreviews.com/Company/GT-Auto-Transport-LLC/Reviews/281625/", rel: 'nofollow', :target => "_blank" %></small>
                 </blockquote>
               </div>
             </div>
@@ -223,7 +223,7 @@
               <div class="hquote hquote-right">
                 <blockquote>
                   <p><%= image_tag ("gtauto/review_logo.jpg"), class: "avatar" %><strong>BEST SERVICE! - </strong>Amy is GREAT to deal with, very knowledgeable, and keeps constant contact. I highly recommend GT TRANSPORT!!!</p>
-                  <small class="author-bottom"><%= link_to "Caleb", "http://www.transportreviews.com/Company/GT-Auto-Transport-LLC/Reviews/276132/", :target => "_blank" %></small>
+                  <small class="author-bottom"><%= link_to "Caleb", "http://www.transportreviews.com/Company/GT-Auto-Transport-LLC/Reviews/276132/", rel: 'nofollow', :target => "_blank" %></small>
                 </blockquote>
               </div>
             </div>
@@ -234,7 +234,7 @@
               <div class="hquote">
                 <blockquote>
                   <p><%= image_tag ("gtauto/review_logo.jpg"), class: "avatar" %><strong>Excellent, Honest, Affordable - </strong>After regretfully filling out a vehicle shipping quote online, which resulted in over 50 emails from various companies, most of which were out of Florida, I found Derek and Amy. We were surprising my mother with a new car for Christmas... <%= link_to "read more", "http://www.transportreviews.com/Company/GT-Auto-Transport-LLC/Reviews/275925/", :target => "_blank" %> </p>
-                  <small class="author-bottom"><%= link_to "Erik Cloud", "http://www.transportreviews.com/Company/GT-Auto-Transport-LLC/Reviews/275925/", :target => "_blank" %></small>
+                  <small class="author-bottom"><%= link_to "Erik Cloud", "http://www.transportreviews.com/Company/GT-Auto-Transport-LLC/Reviews/275925/", rel: 'nofollow', :target => "_blank" %></small>
                 </blockquote>
               </div>
             </div>
@@ -242,7 +242,7 @@
               <div class="hquote hquote-right">
                 <blockquote>
                   <p><%= image_tag ("gtauto/review_logo.jpg"), class: "avatar" %><strong>Great Job-Prompt And Reliable - </strong>GT Auto Transport has been great. We are in Southern California and often need to dealer trade for cars in Northern California, Seattle and Oregon… Even when we need cars on the East Coast, and or across the United States, Amy... <%= link_to "read more", "http://www.transportreviews.com/Company/GT-Auto-Transport-LLC/Reviews/274578/", :target => "_blank" %> </p>
-                  <small class="author-bottom"><%= link_to "Johnny M", "http://www.transportreviews.com/Company/GT-Auto-Transport-LLC/Reviews/274578/", :target => "_blank" %></small>
+                  <small class="author-bottom"><%= link_to "Johnny M", "http://www.transportreviews.com/Company/GT-Auto-Transport-LLC/Reviews/274578/", rel: 'nofollow', :target => "_blank" %></small>
                 </blockquote>
               </div>
             </div>
@@ -250,17 +250,17 @@
           <hr>
           <div class="row">
             <div class="col-md-2 col-md-offset-2 col-sm-6">
-              <%= image_tag ("gtauto/bbb_logo.png"), class: "img-responsive " %>
+              <%= image_tag ("gtauto/bbb_logo.png"), alt: 'BBB logo', class: "img-responsive " %>
             </div>
             <div class="col-md-2 col-sm-6">
-              <%= image_tag ("gtauto/transport_logo.png"), class: "img-responsive " %>
+              <%= image_tag ("gtauto/transport_logo.png"), alt: 'Transport Review Logo', class: "img-responsive " %>
               <p class="transportText">5 Stars Since 2006</p>
             </div>
             <div class="col-md-2 col-sm-6">
-              <%= image_tag ("gtauto/fmcsa.png"), class: "img-responsive " %>
+              <%= image_tag ("gtauto/fmcsa.png"), alt: 'FMCSA Logo', class: "img-responsive " %>
             </div>
             <div class="col-md-2 col-sm-6">
-              <%= image_tag ("gtauto/dot_logo.jpg"), class: "img-responsive" %>
+              <%= image_tag ("gtauto/dot_logo.jpg"), alt: 'DOT logo', class: "img-responsive" %>
             </div>
           </div>
         
