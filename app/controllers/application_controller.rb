@@ -11,4 +11,11 @@ class ApplicationController < ActionController::Base
    end
    
   protect_from_forgery with: :exception
+  
+  BASE_URL = 'http://gtautotransport.com'.freeze
+  
+  
+  def canonical_url(path = '')
+      URI.join(BASE_URL, path)
+  end
 end
