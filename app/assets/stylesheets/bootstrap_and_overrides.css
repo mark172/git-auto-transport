@@ -220,6 +220,20 @@
 }
 }
 
+.intro-slider .slide h2 {
+    font: 300 2.3em/1em "Roboto Condensed";
+    margin: 10px 0 20px 0;
+    letter-spacing: 0.1em;
+}
+
+.jumbotron h3 {
+  font-size: 63px;
+  text-transform: uppercase;
+  color: #0033ff;
+  font-weight: 400;
+  font-family: "Roboto Condensed";
+}
+
 /*@media (max-width: 767px) {*/
 /*  .hnav.nav-main .navbar-toggle {*/
 /*    margin-top: 30px;*/

@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
   def index
     @title = "Nationwide Door-to-Door Auto Transport Service | GT Auto Transport"
+    @meta_description = "Contact us for reliable, licensed auto transport."
   end
   
   def about
